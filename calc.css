@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(103, 148, 187);
+    backdrop-filter: blur(2px);
+    background-size: contain;
+}
+.home{
+    display: flex;
+ 
+    justify-content: center;
+    
+    align-items: center;
+    
+    height: 100vh;   
+}
+form{
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    border: solid 2px rgb(8, 5, 5);
+    border-radius: 20px;
+    background-color: rgb(188, 105, 196);
+}
+
+
+label,h1,h2{
+    color: rgb(10, 3, 6);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:30 ;
+    font-style: normal;
+    font-size: 40px;
+}

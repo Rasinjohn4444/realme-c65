@@ -1,0 +1,171 @@
+.main-heading-h1{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+.main-heading-h1 h1{
+    background-color: brown;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+.rambo{                                             /* navigation bar */
+    display: flex;
+    background-color: gold;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+
+.abouth2{                                          /* class 1 */
+    display: flex;
+    background-color: rgb(174, 199, 202);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    background-image:url("https://m.media-amazon.com/images/I/619ftFJ6sNL._AC_UF894,1000_QL80_.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+.abouth2 h2{
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.launchdateh2{                                      /* class 2 */
+    display: flex;
+    background-color: rgb(158, 113, 201);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+.launchdateh2 h2{
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Gadgets-featuresh2{                                   /* class 3 */
+    display: flex;
+    background-color: rgb(156, 197, 115);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    
+}
+.Gadgets-featuresh2 h2{
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Feedback-form-h2{                                    /* class  4 */
+    display: flex;
+    background-color: rgb(175, 175, 209);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    
+}
+.Feedback-form-h2 h2{
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.abouth2:hover{                            /* this is used for changing colour (you can try for another method) */
+    color: rgb(214, 38, 52);
+    transition: 2s;
+    cursor: auto;
+}
+
+/*
+
+@keyframes MoveUpDown{
+    0%{
+         transform: scale(100%);
+         transform: rotate(20deg);
+    }
+    50%{
+           transform: scale(200%);
+         transform: rotate(0deg);
+    }
+    100%{
+         transform: scale(100%);
+         transform: rotate(20deg);
+    }
+}
+
+
+h1{
+    animation: MoveUpDown 5s;
+}
+
+*/
+
+/*
+@keyframes Rotate{
+    0%{
+         
+         transform: rotate(0deg);
+    }
+    50%{
+           
+         transform: rotate(180deg);
+    }
+    100%{
+         
+         transform: rotate(360deg);
+    }
+}
+
+img{
+        animation:Rotate 30s ;
+}
+        */
